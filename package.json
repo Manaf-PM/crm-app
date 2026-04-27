@@ -1,0 +1,22 @@
+{
+  "name": "crm-app",
+  "private": true,
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.8.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1776716607932,
+      "tag": "0000_last_jack_power",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1776771631394,
+      "tag": "0001_wooden_timeslip",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1776777475334,
+      "tag": "0002_strange_marvel_zombies",
+      "breakpoints": true
+    }
+  ]
+}

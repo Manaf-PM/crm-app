@@ -1,0 +1,1 @@
+ALTER TABLE "clients" ADD COLUMN "user_id" varchar(128) NOT NULL;

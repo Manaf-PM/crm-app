@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "..",
+    "paths": {
+      "@crm/shared": ["../../packages/shared/src/index.ts"],
+      "@crm/shared/*": ["../../packages/shared/src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

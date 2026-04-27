@@ -1,0 +1,36 @@
+{
+  "name": "@crm/backend",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --tsconfig tsconfig.json src/index.ts",
+    "build": "tsc",
+    "start": "node dist/backend/src/index.js",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@crm/shared": "*",
+    "@hono/node-server": "^1.12.0",
+    "@hono/zod-validator": "^0.7.6",
+    "dotenv": "^16.4.0",
+    "drizzle-orm": "^0.45.2",
+    "hono-rate-limiter": "^0.5.3",
+    "nodemailer": "^8.0.5",
+    "papaparse": "^5.4.0",
+    "postgres": "^3.4.0",
+    "twilio": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/nodemailer": "^6.4.0",
+    "@types/papaparse": "^5.3.0",
+    "drizzle-kit": "^0.31.10",
+    "rimraf": "^5.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}

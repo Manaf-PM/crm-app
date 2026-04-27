@@ -1,0 +1,1 @@
+ALTER TABLE "notification_templates" ADD COLUMN "user_id" varchar(128) NOT NULL;
